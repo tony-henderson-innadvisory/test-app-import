@@ -1,30 +1,54 @@
-# Test Import Project
+## Prerequisites
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+- Node.js >=20 (Recommended)
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/innadvisory/v0-test-import-project)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/HwpSt7QDq6B)
+## Installation
 
-## Overview
+**Using Yarn (Recommended)**
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+```sh
+yarn install
+yarn dev
+```
 
-## Deployment
+**Using Npm**
 
-Your project is live at:
+```sh
+npm i
+npm run dev
+```
 
-**[https://vercel.com/innadvisory/v0-test-import-project](https://vercel.com/innadvisory/v0-test-import-project)**
+## Build
 
-## Build your app
+```sh
+yarn build
+# or
+npm run build
+```
 
-Continue building your app on:
+## Mock server
 
-**[https://v0.app/chat/projects/HwpSt7QDq6B](https://v0.app/chat/projects/HwpSt7QDq6B)**
+By default we provide demo data from : `https://api-dev-minimal-[version].vercel.app`
 
-## How It Works
+To set up your local server:
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+- **Guide:** [https://docs.minimals.cc/mock-server](https://docs.minimals.cc/mock-server).
+
+- **Resource:** [Download](https://www.dropbox.com/scl/fo/bopqsyaatc8fbquswxwww/AKgu6V6ZGmxtu22MuzsL5L4?rlkey=8s55vnilwz2d8nsrcmdo2a6ci&dl=0).
+
+## Full version
+
+- Create React App ([migrate to CRA](https://docs.minimals.cc/migrate-to-cra/)).
+- Next.js
+- Vite.js
+
+## Starter version
+
+- To remove unnecessary components. This is a simplified version ([https://starter.minimals.cc/](https://starter.minimals.cc/))
+- Good to start a new project. You can copy components from the full version.
+- Make sure to install the dependencies exactly as compared to the full version.
+
+---
+
+**NOTE:**
+_When copying folders remember to also copy hidden files like .env. This is important because .env files often contain environment variables that are crucial for the application to run correctly._
